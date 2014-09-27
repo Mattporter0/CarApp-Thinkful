@@ -8,6 +8,10 @@
 
 /* Begin PBXBuildFile section */
 		DFF2778F19BB000A00912A7E /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFF2778E19BB000A00912A7E /* main.swift */; };
+		DFF2779819BB004E00912A7E /* Car.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFF2779719BB004E00912A7E /* Car.swift */; };
+		DFF2779A19BB013A00912A7E /* TurboCar.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFF2779919BB013900912A7E /* TurboCar.swift */; };
+		DFF2779C19BB02B000912A7E /* HybridCar.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFF2779B19BB02B000912A7E /* HybridCar.swift */; };
+		DFF5257719BF070800577A6C /* PickupTruck.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFF5257619BF070800577A6C /* PickupTruck.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +29,10 @@
 /* Begin PBXFileReference section */
 		DFF2778B19BB000A00912A7E /* CarApp Thinkful */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "CarApp Thinkful"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DFF2778E19BB000A00912A7E /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		DFF2779719BB004E00912A7E /* Car.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Car.swift; path = ../Car.swift; sourceTree = "<group>"; };
+		DFF2779919BB013900912A7E /* TurboCar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TurboCar.swift; sourceTree = "<group>"; };
+		DFF2779B19BB02B000912A7E /* HybridCar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HybridCar.swift; sourceTree = "<group>"; };
+		DFF5257619BF070800577A6C /* PickupTruck.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PickupTruck.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,7 +65,11 @@
 		DFF2778D19BB000A00912A7E /* CarApp Thinkful */ = {
 			isa = PBXGroup;
 			children = (
+				DFF2779719BB004E00912A7E /* Car.swift */,
 				DFF2778E19BB000A00912A7E /* main.swift */,
+				DFF2779B19BB02B000912A7E /* HybridCar.swift */,
+				DFF5257619BF070800577A6C /* PickupTruck.swift */,
+				DFF2779919BB013900912A7E /* TurboCar.swift */,
 			);
 			path = "CarApp Thinkful";
 			sourceTree = "<group>";
@@ -118,7 +130,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DFF2779819BB004E00912A7E /* Car.swift in Sources */,
 				DFF2778F19BB000A00912A7E /* main.swift in Sources */,
+				DFF5257719BF070800577A6C /* PickupTruck.swift in Sources */,
+				DFF2779C19BB02B000912A7E /* HybridCar.swift in Sources */,
+				DFF2779A19BB013A00912A7E /* TurboCar.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -233,6 +249,7 @@
 				DFF2779419BB000A00912A7E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
